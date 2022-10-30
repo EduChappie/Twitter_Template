@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font: normal 15pt Arial;
+}
+.painel {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+}
+.left_side > header img {
+    width: 11%;
+    margin:  auto 15px;
+}
+.left_side {
+    width: 22.5%;
+    height: 100%;
+    padding: 20px;
+}
+article > section .barr {
+    width: min-content;
+    margin: 5px 0 5px 0;
+    padding: 12px 30px 12px 22.5%;
+    background-color: white;
+    border-radius: 100px;
+    font-weight: bold;
+    font: inherit 2em;
+}
+article.left_side > section .barr:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.left_side .tweet > button {
+    width: 90%;
+    padding: 12px;
+    background-color: #00ACEE;
+    border: none;
+    border-radius: 100px;
+    font: normal 1.5em inherit;
+    font-weight: bold;
+    color: white;
+}
+.left_side .tweet > button:hover {
+    cursor: pointer;
+    background-color: #0095d0;
+}
