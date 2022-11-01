@@ -8,17 +8,17 @@ html, body {
     font: normal 15pt Arial;
 }
 .painel {
-    width: 65%;
+    width: 68%;
     height: 100%;
     margin: 0 auto;
 }
 .left_side > header img {
-    width: 11%;
+    width: 14%;
     margin:  auto 15px;
 }
 .left_side {
-    width: 22.5%;
-    height: 100%;
+    width: 20%;
+    height: auto;
     padding: 20px;
 }
 article > section .barr {
